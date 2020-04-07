@@ -38,3 +38,11 @@ A self-sufficient runtime for containers
 
 ```
 
+### Dockerfile
+
+The instructions from the dockerfile file are automatically executed after the docker build command.
+
+- `FROM` creates a layer from the selected image
+- `RUN` builds your application with make
+- `COPY`  creates a copy of local files into the container
+
